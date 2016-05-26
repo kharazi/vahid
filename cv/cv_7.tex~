@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Vahid} % Your first name
+\familyname{Kharazi} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{123 Broadway}{City, State 12345}
+\mobile{(98)938 144 2622}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+\email{vahid@kharazi.net}
+% \homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/vahid.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+
+\cvitem{}{Natural Language Processing}
+\cvitem{}{Data Mining, Big Data Analytics}
+\cvitem{}{Machine Learning, Pattern Recognition}
+\cvitem{}{Cognitive Architecture, Human Factors}
+
+
+\section{Education}
+
+\cventry{2015--current}{Masters of Science}{Iran University of Science and Technology}{Department of Computer Engineering}{Artificial Intelligence Major}{}  % Arguments not required can be left empty
+\newline
+courses:
+PGM: 17/20, NLP: 18/20
+
+\cventry{2011--2015}{Bachelor of Science}{Iran University of Science and Technology}{Department of Computer Engineering}{Software Major}{\textit{GPA: 16.45/20 (3.20/4), 2nd Rank among IUST \newline 
+Major Course GPA: 18.56/20 (3.90/4) \newline \newline  Some core course grades: \newline AI:20/20, Algorithms:20/20, SE1:13.98/20, SE2:19.33/20, IR:20/20, Compilers:20/20, DB:20/20, Numerical Calculations:19/20 , DM:17.6/20, DS:16.75, Programming:19/20, Advance Programming:20/20 }}
+\cventry{2010--2011}{Pre University, Mathematics}{FajreKhatam HighSchool}{Tehran}{}{\textit{GPA: 18.15/20 (4/4)}}
+\cventry{2007--2010}{Diploma, Physics-Mathematic}{Dr.Shariaati HighSchool}{Tehran}{}{\textit{GPA: 19.26/20 (4/4)}}
+
+\section{Bachelor Thesis}
+
+\cvitem{Title}{\emph{Emotion Models in Cognitive Architectures}}
+\cvitem{Supervisors}{Dr.Adel t.Rahmani \& Associate Dr.MohammadReza Jahed}
+\cvitem{Description}{This thesis explored the idea that how we can model human emotions and it's survey of emotion models on some Cognitive Architecture(Specially ACT-R and SOAR) }
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Teaching Experiences}
+
+\cventry{Spring 2015}{Teaching Assitant for System Analysis and Design}{}{}{}{instructor: Dr.Saeed Parsa}
+
+\cventry{Spring 2014}{Teaching Assitant for Algorithms}{}{}{}{instructor: Dr.Hassan Naderi}
+\cventry{Fall 2012 and Fall 2013}{Teaching Assitant for Inroduction to Programming(Python)}{}{}{}{instructor: Dr.Adel Rahmani}
+\cventry{Fall 2012 and Fall 2013}{Teaching Assitant for Discrete Mathematics}{}{}{}{instructor: Dr.Mohammad Abollahi Azgomi}
+\cventry{Spring 2012}{Teaching Assitant for Advance Programming(C++ and Python)}{}{}{}{instructor: Dr.Adel Rahmani}
+
+
+% \cventry{Fall 2012,2013}{Teaching Assitant for Inroduction to Programming}{\textsc{}}{}{}{instructor: Dr.Adel t.Rahmani}
+
+% \cventry{Fall 2012 & Fall 2013}{Teaching Assitant for Algorithms}{\textsc{}}{}{}{instructor: Dr.Hassan Naderi}
+
+
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+
+% \cvitem{2011}{School of Business Postgraduate Scholarship}
+% \cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{C, C++, MATLAB, Qt, Latex, System Administration, Git, MongoDB, Neo4j, Hadoop, Spark}
+\cvitem{Intermediate}{Python, Python Sklearn, NLTK, Programming, Web Scaling, Linux}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Selected Projects}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+
+\cvitem{2015, 2016}{\textbf{ACAS:} A Social Network and News Analyser, Using datamining and graph discovering algorithm to analyse users behaviours}
+\cvitem{2014,2015}{\textbf{Mirad:} An article aggregator which maintains a personalized feed for each user according to their feedbacks. Mirad is in production phase and is serving thousands of users. Backend uses Python which is a great fit for data processing tasks and scraping sources. scikit-learn machine learning library for its recommendation system and python nltk for text processing, \url{http://mirad.ir}}
+\cvitem{2014}{\textbf{Moujez:} Persian Text Summarization Agent Focused at News(AI Course Project), \url{http://github.com/kharazi/moujez}}
+\cvitem{2014}{\textbf{MAPRII:} Implementation of simple Inverted Index(II) using Hadoop and Spark(IR Course Project)}
+\cvitem{2012}{\textbf{ListMacro:} Implementation of list macro for X86 Assembly(Assembly Course Project), \url{https://gitorious.org/listmacro}}
+
+
+\section{Activities}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+\cvitem{2016}{Conference Committee, Tehran PyCon 2016, PyCon is the largest annual gathering for the community using and developing the open-source Python programming language}
+
+\cvitem{2015}{Conference Committee, Tehran PyCon 2015}
+
+\cvitem{2013}{Conference Committee, Tehran PyCon 2013}
+
+\cvitem{2012}{Event Organizer, SFD@IUST 2013, SFD is a yearly celebration for Software Freedom. Every year there are thousands teams organizing Software Freedom Day in different countries and cities.}
+
+\cvitem{2012}{Elected  as  Member  of  Computer  Engineering  Department  Student  Association (CESA). CESA is the student committee concerned with directing the department's extra-curriculum activities}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Certificates and Awards}
+
+\cvitem{2015}{Ranked as Second Student Among All of Software Engineering Students}
+\cvitem{Feb 2015}{Best Course Project of CE Department in School Open Day}
+\cvitem{2013}{Workshop Presentation about Django(Tehran PyCon 2013), Dr.Nassr Mozayani, Dean of CE Department}
+\cvitem{2013}{Lecture Presentation entitled "Parallel Programming with Python"(Tehran PyCon 2013)}
+\cvitem{2011}{Admission to Iran University of Science and Technology}
+\cvitem{2011}{Ranked among Top 1\% in National University Entrance Exam (300000+ participants)}
+
+
+\section{Languages}
+
+\cvitemwithcomment{Persian}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{}
+\cvitemwithcomment{Arabic}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistdoubleitem{Piano}{Chess}
+% \cvlistdoubleitem{Cooking}{Dancing}
+% \cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
